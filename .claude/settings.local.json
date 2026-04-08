@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(mvn compile:*)",
+      "Bash(java -version)",
+      "Bash(javac -version)",
+      "Bash(mvn -pl sky-server spring-boot:run)",
+      "Bash(mvn install:*)",
+      "Bash(mvn dependency:tree -pl sky-server)"
+    ]
+  }
+}
