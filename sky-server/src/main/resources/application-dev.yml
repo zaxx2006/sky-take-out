@@ -5,10 +5,10 @@ sky:
     port: 3306
     database: sky_take_out
     username: root
-    password: Zzx20061026
+    password: 不要看我的哦
   wechat:
-    appid: wx578a7d24327cfdcc
-    secret: 985632f794e8c72bef87ed802a5c4aa9
+    appid: 不要看我的哦
+    secret: 不要看我的哦
     # 商户号
     mchid: 1561414331
     # 对应的证书的序列号
@@ -23,9 +23,9 @@ sky:
     refundNotifyUrl: https://1068c7d7.r18.cpolar.top/notify/refundSuccess
   alioss:
     endpoint: oss-cn-beijing.aliyuncs.com
-    access-key-id: LTAI5tDUAPu9x2YK9HcoZ4Qa
-    access-key-secret: ITNjiftytDTT2WeJKVqoR8c7hzJ8pU
-    bucket-name: hzauzaxx
+    access-key-id: 不要看我的哦
+    access-key-secret: 不要看我的哦
+    bucket-name: 不要看我的哦
   redis:
     host: 127.0.0.1
     port: 6379
