@@ -5,4 +5,27 @@ sky:
     port: 3306
     database: sky_take_out
     username: root
-    password: root
+    password: Zzx20061026
+  wechat:
+    appid: wx578a7d24327cfdcc
+    secret: 985632f794e8c72bef87ed802a5c4aa9
+    # 商户号
+    mchid: 1561414331
+    # 对应的证书的序列号
+    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
+#    privateKeyFilePath: D:\apiclient_key.pem 私钥文件
+    # 解密秘钥(商户平台设置)
+    apiV3Key: CZBK51236435wxpay435434323FFDuv3
+#    weChatPayCertFilePath: D:\wechatpay_166D96F876F45C7D07CE98952A96EC980368AC
+    # 支付成功回调 内网穿透临时域名+/notify/paySuccess(Controller层接口)
+    notifyUrl: https://1068c7d7.r18.cpolar.top/notify/paySuccess
+    # 退款成功回调 内网穿透临时域名+/notify/refundSuccess(Controller层接口)
+    refundNotifyUrl: https://1068c7d7.r18.cpolar.top/notify/refundSuccess
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5tDUAPu9x2YK9HcoZ4Qa
+    access-key-secret: ITNjiftytDTT2WeJKVqoR8c7hzJ8pU
+    bucket-name: hzauzaxx
+  redis:
+    host: 127.0.0.1
+    port: 6379
