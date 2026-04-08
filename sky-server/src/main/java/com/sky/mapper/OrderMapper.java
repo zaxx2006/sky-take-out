@@ -45,4 +45,6 @@ public interface OrderMapper {
     Integer dayorder(Map<String, Object> map);
 
     List<Map<String, Object>> top10(Map<String, Object> map);
+
+    Integer countByMap(Map map);
 }

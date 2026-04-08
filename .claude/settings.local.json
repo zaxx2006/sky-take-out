@@ -7,7 +7,9 @@
       "Bash(javac -version)",
       "Bash(mvn -pl sky-server spring-boot:run)",
       "Bash(mvn install:*)",
-      "Bash(mvn dependency:tree -pl sky-server)"
+      "Bash(mvn dependency:tree -pl sky-server)",
+      "Bash(python3 -c ':*)",
+      "Bash(python -c ':*)"
     ]
   }
 }
